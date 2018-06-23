@@ -27,7 +27,6 @@ export default ({ data }: IndexPageProps) => {
   const { siteName } = data.site.siteMetadata
   return (
     <Layout>
-      <h1>{siteName}</h1>
       <p>
         This site is named <strong>{siteName} </strong>
         I wonder what will happen now.
